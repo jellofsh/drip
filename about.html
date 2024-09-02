@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icoin" href="mheal_logo.png">
+  </head>
+  <body>
+    <!-- side nav-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Sobre Team DRIP</a>
+        <a href="daily_care.html">Consejos de Cuidado Diario</a>
+        <a href="#">Costumbres Saludables</a>
+        <a href="#">Riesgas y Prevención</a>
+      </div>
+  
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;
+      </span>
+  
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+  
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+      </script>
+  
+      <br />
+    <div style='text-align: center' class = 'center'>
+      <img src="mheal_logo.png" alt="M-HEAL Logo" style="width: 50%" />
+    </div>
+    <div id="about">
+      ¡Hola! Estamos muy emocionados de que usded haya decidido usar nuestra
+      página web. Esperamos que encuentre lo que está buscando.
+      <br />
+      <br />
+      Somos Team DRIP: Diabetes Reduction Initiative in Peñasco,
+
+      <!--ADD MORE INFO-->
+    </div>
+  </body>
+</html>

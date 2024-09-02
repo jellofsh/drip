@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prevención de Úlceras de Pie</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- side nav-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Sobre Team DRIP</a>
+      <a href="daily_care.html">Consejos de Cuidado Diario</a>
+      <a href="#">Costumbres Saludables</a>
+      <a href="#">Riesgas y Prevención</a>
+    </div>
+
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      >&#9776;
+    </span>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <br />
+
+    <img src="mheal_logo.png" alt="M-HEAL logo" style="width: 5%" />
+    <h1>¡Bienvenid@!</h1>
+
+    <h2>¿Necesita ayuda para encontrar la página correcta?</h2>
+
+    <div style="text-align: center" class="link">
+      <a href="#">¡Tome nuestra encuesta!</a>
+    </div>
+
+    <h2>¿Nos ha visitado antes?</h2>
+
+    <div style="text-align: center" class="link">
+      <a href="health_checklist.html">¡Complete la lista de verificación de salud!</a>
+    </div>
+  </body>
+</html>

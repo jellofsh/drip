@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Verificación de Salud</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- side nav-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Sobre Team DRIP</a>
+        <a href="daily_care.html">Consejos de Cuidado Diario</a>
+        <a href="#">Costumbres Saludables</a>
+        <a href="#">Riesgas y Prevención</a>
+      </div>
+  
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;
+      </span>
+  
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+  
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+      </script>
+  
+      <br />
+    <h1>Lista de Verificación de Salud</h1>
+    <h4 style="text-align: center;">Lea cada punto en la lista y seleccione los que se aplican.</h4>
+    <input type="checkbox" id="1" name="name" value="value" />
+    <label for="1"
+      >Pide que un doctor examina sus pies al menos una vez al año.</label
+    >
+    <br />
+    <input type="checkbox" id="2" />
+    <label for="2">Vaya a su próxima cita con el médico.</label>
+    <br>
+    <!--ADD MORE ITEMS-->
+    <input type="checkbox" id = '3'>
+    <label for="3">Some other stuff</label>
+
+  </body>
+</html>
